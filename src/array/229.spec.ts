@@ -1,4 +1,4 @@
-describe("test", () => {
+describe("majorityElement II", () => {
 	function majorityElement(nums: number[]): number[] {
 		const map = new Map();
 		const answer = [];

@@ -14,7 +14,7 @@
 // }
 
 // Improved solution
-describe("test", () => {
+describe("moveZeroes", () => {
 	function moveZeroes(numArr: number[]): number[] {
 		const numFiltered = [...numArr].filter((num) => num > 0);
 

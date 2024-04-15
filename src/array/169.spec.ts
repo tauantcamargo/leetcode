@@ -1,4 +1,4 @@
-describe("test", () => {
+describe("majorityElement", () => {
 	function majorityElement(nums: number[]): number {
 		let count = 1;
 		let element = nums[0];
