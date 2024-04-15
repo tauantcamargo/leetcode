@@ -1,19 +1,3 @@
-// old solution
-// export function moveZeroes(nums: number[]): void {
-// 	const zeroList: number[] = [];
-// 	const numList: number[] = [];
-// 	for (const num of nums) {
-// 		if (num === 0) {
-// 			zeroList.push(num);
-// 		} else {
-// 			numList.push(num);
-// 		}
-// 	}
-//   nums.length = 0;
-//   nums.push(...numList, ...zeroList);
-// }
-
-// Improved solution
 describe("moveZeroes", () => {
 	function moveZeroes(numArr: number[]): number[] {
 		const numFiltered = [...numArr].filter((num) => num > 0);
